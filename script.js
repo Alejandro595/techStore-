@@ -5,7 +5,7 @@ const products = [
     { id: 3, name: "Laptop Dell", category: "laptop", price: 900, discount: 5, image: "https://m.media-amazon.com/images/I/71gFkTZ1YmL.jpg" },
     { id: 4, name: "Smartphone Xiaomi", category: "smartphone", price: 300, discount: 20, image: "https://technologystore2006.com/wp-content/uploads/2022/02/xiamomi-note11-azul-128.webp" },
     { id: 5, name: "Tablet iPad", category: "tablet", price: 600, discount: 10, image: "https://m.media-amazon.com/images/I/91xk0o++tdL.jpg" },
-    { id: 6, name: "Auriculares Bluetooth", category: "accesorios", price: 80, discount: 10, image: "https://http2.mlstatic.com/D_NQ_NP_833941-MLU78764933573_082024-O.webp" }
+    { id: 6, name: "Auriculares Bluetooth", category: "accesorios", price: 80, discount: 10, image: "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/129670483_01/w=800,h=800,fit=pad" }
 ];
 
 const productList = document.getElementById("productList");
