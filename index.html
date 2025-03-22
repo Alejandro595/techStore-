@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda TechStore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>TechStore</h1>
+        <input type="text" id="searchBar" placeholder="Buscar productos...">
+        <select id="categoryFilter">
+            <option value="all">Todas las categorías</option>
+            <option value="laptop">Laptops</option>
+            <option value="smartphone">Smartphones</option>
+            <option value="tablet">Tablets</option>
+            <option value="accesorios">Accesorios</option>
+        </select>
+    </header>
+
+    <main>
+        <section id="productSection">
+            <h2>Productos</h2>
+            <div id="categoryButtons">
+                <button class="filterBtn" data-category="laptop">Laptops</button>
+                <button class="filterBtn" data-category="smartphone">Smartphones</button>
+                <button class="filterBtn" data-category="tablet">Tablets</button>
+                <button class="filterBtn" data-category="accesorios">Accesorios</button>
+            </div>
+            <div id="productList"></div>
+        </section>
+
+        <section id="cart">
+            <h2>Carrito</h2>
+            <ul id="cartItems"></ul>
+            <p>Total: $<span id="cartTotal">0.00</span></p>
+            
+            <div class="payment">
+                <h3>Pago por QR</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Commons_QR_code.png" alt="Código QR de pago">
+                <p>Escanea este código para realizar un pago .</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
